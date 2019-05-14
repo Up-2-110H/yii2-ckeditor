@@ -14,8 +14,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "up2110h\\ckeditor\\assets": "src/assets/",
-            "up2110h\\ckeditor\\widgets": "src/widgets/"
+            "up2110h\\ckeditor\\assets\\": "src/assets/",
+            "up2110h\\ckeditor\\widgets\\": "src/widgets/"
         }
     },
     "minimum-stability": "stable"
