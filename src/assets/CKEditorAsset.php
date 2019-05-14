@@ -6,13 +6,13 @@ use yii\web\AssetBundle;
 
 class CKEditorAsset extends AssetBundle
 {
-    public $basePath = '@webroot/ckeditor';
-    public $baseUrl = '@web/ckeditor';
+    public $basePath = '@webroot';
+    public $baseUrl = '@web';
     public $jsOptions = ['position' => \yii\web\View::POS_HEAD];
     public $css = [
     ];
     public $js = [
-        'ckeditor.js',
+        '//cdn.ckeditor.com/4.11.4/basic/ckeditor.js',
     ];
     public $depends = [
     ];
