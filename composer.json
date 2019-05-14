@@ -1,0 +1,22 @@
+{
+    "name": "up2110h/yii2-ckeditor",
+    "description": "simple yii2 ckeditor widget",
+    "type": "widget",
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Kudratullaev Abdullokh",
+            "email": "qudratullayev97@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "up2110h\\ckeditor\\assets": "src/assets/",
+            "up2110h\\ckeditor\\widgets": "src/widgets/"
+        }
+    },
+    "minimum-stability": "stable"
+}
